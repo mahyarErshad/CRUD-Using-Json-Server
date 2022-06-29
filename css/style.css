@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(".././assets/fonts/vazir.woff2") format("woff2")
+}
+
+html ,body{
+    background-color: #fafafa;
+    font-family: "Vazir";
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+}
+.main{
+    margin-top: 15%;
+}
+.title{
+    background-color: #73126E;
+    font-size: 1.2rem;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.add-user{
+    background-color: #ED5500;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.addUserBtn{
+    border: none;
+    background-color: #ED5500;
+    color: #fff;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: none;
+}
+.modal-titr{
+    background-color: #73126E;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.close-btn{
+    background-color: #73126E;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.close-btn:hover{
+    color: #E91352;
+}
+.modal-title{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+}
+.form-input{
+    margin-bottom: 1rem;
+}
+.form-label{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+.form-submit{
+    background-color: #E91352;
+    color: #fff;
+    border: none;
+    height: 2.5rem;
+}
+.form-submit:hover{
+    background-color: #e73e71;
+}
+.form-edit{
+    background-color: #E91352;
+    color: #fff;
+    border: none;
+    height: 2.5rem;
+    display: none;
+}
+.form-edit:hover{
+    background-color: #e73e71;
+}
+#output{
+    background-color: #EFEFEE;
+}
+table{
+    margin-bottom: 0rem !important;
+    width: 100%;
+}
